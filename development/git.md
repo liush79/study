@@ -47,7 +47,8 @@
 
 ## If your git not support HTTPS
     sudo apt-get install libcurl4-openssl-dev
-
+    
+    # chenge version to new version
     wget https://www.kernel.org/pub/software/scm/git/git-2.12.0.tar.gz
     tar xvf git-2.12.0.tar.gz
     cd git-2.12.0
@@ -55,4 +56,4 @@
     make -j8
     sudo make install
 
-    /usr/local/bin/git clone https주소 입력하시면 됩니다.
+    /usr/local/bin/git clone https://git.domain/
