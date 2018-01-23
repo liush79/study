@@ -44,3 +44,15 @@
     .settings
     .idea
     .metadata
+
+## If your git not support HTTPS
+    sudo apt-get install libcurl4-openssl-dev
+
+    wget https://www.kernel.org/pub/software/scm/git/git-2.12.0.tar.gz
+    tar xvf git-2.12.0.tar.gz
+    cd git-2.12.0
+     ./configure
+    make -j8
+    sudo make install
+
+    /usr/local/bin/git clone https주소 입력하시면 됩니다.
